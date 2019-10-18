@@ -4,7 +4,12 @@ This library provides access to the Material UI Color Palette with a simple API,
 
 ## Examples
 
-The color constructor accepts a variable numbers of arguments, supporting a couple different formats: - A single string argument representing a hex number of 3 or 4 colors. E.g.: '#FFA425', 'fF8bC2', '#81FD9155'. Note that the hash is optional. - A single vector of length 3 or 4, representing rgb or rgba colors, respectively. The range of the values is [0, 255]. - Three floats representing RGB, respectively, in the range [0, 255] - Four floats representing RGBA, respectively, in the range [0, 255]
+The color constructor accepts a variable numbers of arguments, supporting a couple different formats:
+
+- A single string argument representing a hex number of 3 or 4 colors. E.g.: '#FFA425', 'fF8bC2', '#81FD9155'. Note that the hash is optional.
+- A single vector of length 3 or 4, representing rgb or rgba colors, respectively. The range of the values is [0, 255].
+- Three floats representing RGB, respectively, in the range [0, 255]
+- Four floats representing RGBA, respectively, in the range [0, 255]
 
 ```matlab
 >> Color(255, 150, 150)
